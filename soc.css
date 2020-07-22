@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+/* body */
+html {
+  position: relative;
+  overflow-x: hidden!important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #324e63;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+/* icon */
+.icon {
+  display:  inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+/* card */
+.wrapper {
+  width: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  padding: 50px 20px;
+  padding-top: 100px;
+  display: flex;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+
+  display: flex;
+  background-image: linear-gradient(-20deg, #ff2846 0%, #6944ff 100%);
+}
+/* profile card */
+.profile-card {
+  width: 100%;
+  min-height: 460px;
+  margin: auto;
+  box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+  background: #fff;
+  border-radius: 12px;
+  max-width: 700px;
+  position: relative;
+
+  }
+/* profile image */
+img {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border-radius: 45%;
+    overflow: hidden;
+    position: relative;
+    top:40px;
+    z-index: 4;
+    box-shadow: 0px 5px 50px 0px rgb(108, 68, 252), 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+
+  }
+ /* profile card name */
+  .profile-card-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 38px;
+    color: #6944ff;
+    margin-bottom: 15px;
+    position: relative;
+    bottom:20px;
+  }
+  /* input text */
+  .text {
+    padding: 10px 50px 10px 50px;
+    font-family: sans-serif;
+}
+  .text p {
+    font-size:20px;
+    margin-bottom: 0px;
+}
+.review{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 50;
+  position: relative;
+  bottom: 30px;
+  font-size:1.3em; 
+  
+}
+
+/* profile card location */
+  .profile-card-loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    bottom:35px;
+    padding-left: 5%;
+}
+/* profile card buttons */
+.profile-card-btns{
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  align-content: center;
+}
+.butns{
+  margin: 0px auto;
+}
+
+  .profile-card__button {
+       
+        background: none;
+        border: none;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        margin: 15px 35px;
+        padding: 15px 40px;
+        min-width: 201px;
+        border-radius: 50px;
+        min-height: 55px;
+        color: #fff;
+        cursor: pointer;
+        backface-visibility: hidden;
+        transition: all .3s;
+        position: relative;
+        bottom:0px;
+        
+    }
+    /* like button */
+    .button--blue {
+      background: linear-gradient(45deg, #1da1f2, #0e71c8);
+      box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
+    }
+    
+    .button--blue:hover {
+      box-shadow: 0px 7px 30px rgba(19, 127, 212, 0.75);
+    }
+    .button--blue {
+      background: linear-gradient(45deg, #1da1f2, #0e71c8);
+    box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
+    box-shadow: none;
+    background: rgb(53, 97, 240);
+    color: #fff;
+  }
+
+    /* share button */
+    .button--orange {
+      background: linear-gradient(45deg, #d5135a, #f05924);
+      box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+
+    }
+    .button--orange:hover{
+      box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+    } 
